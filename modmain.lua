@@ -1,7 +1,7 @@
 local TUNING = GLOBAL.TUNING
 
-TUNING.WANDA_MIN_YEARS_OLD = GetModConfigData("min_years")
-TUNING.WANDA_MAX_YEARS_OLD = GetModConfigData("max_years")
+
+TUNING.OLDAGE_HEALTH_SCALE = TUNING.WANDA_OLDAGER / GetModConfigData("health")
 
 TUNING.POCKETWATCH_HEAL_COOLDOWN = GetModConfigData("ageless_watch_cooldown")
 TUNING.POCKETWATCH_HEAL_HEALING = GetModConfigData("ageless_watch_healing")
